@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np 
 import pandas as pd 
-from PIL import Image
+#from PIL import Image
 import time
 
 st.title('Streamlit introduction')
@@ -32,9 +32,9 @@ st.map(df)
 
 st.write('Interactive Widgets')
 
-if st.checkbox('Show Image'):
-    img = Image.open('sample.jpeg')
-    st.image(img, caption='picture', use_column_width=True)
+#if st.checkbox('Show Image'):
+    #img = Image.open('sample.jpeg')
+    #st.image(img, caption='picture', use_column_width=True)
 
 option = st.selectbox(
     'what is your favorite number?', 
